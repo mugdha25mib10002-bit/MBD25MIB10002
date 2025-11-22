@@ -58,6 +58,9 @@ The Smart Alarm Clock System is a Python-based desktop application. It lets user
 
   <br>
   <h2>🖼️ Screenshots</h2>
+  <br>
+  <img width="1920" height="1080" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/3898b111-bffb-4997-af43-65515fd862a5" />
+
 
    
   
