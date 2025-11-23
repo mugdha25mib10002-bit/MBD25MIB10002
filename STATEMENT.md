@@ -1,105 +1,37 @@
+<h1>Student Management System</h1>
+<br>
+<h2>Problem Statement</h2>
 
-<h1>Module Description</h1>
+Educational institutions often handle large amounts of student data by hand. This can result in mistakes, inefficiency, and challenges in finding records. A computer-based Student Management System is needed to make managing student data easier, boost accuracy, and help with quick decision-making.
 <br>
 
-The system is divided into 6 major modules, each designed to perform specific functions.
-
-<h2>1. User Authentication Module</h2>
-
-Handles login and logout.
-
-Manages user roles, including Admin, Teacher, and Student.
-
-Validates credentials and ensures access control.
-<br>
-
------------------------------------------------------
+--------------------------------------------------------------------------------
 
 <br>
-<h2>2. Student Management Module</h2>
+<h2>Scope of the Project</h2>
 
-Add new students. 
-
-Update student details. 
-
-Delete and archive records. 
-
-Search for students by ID, name, class, or section. 
-
-View individual student profiles.
+The project includes student registration, storage of academic and personal details, attendance management, marks processing, and basic reporting. It supports standard CRUD functions and ensures secure storage with a database-driven backend. Future additions could include dashboards, improved analytics, and cloud integration.
 <br>
 
-------------------------------------------------------
-<br>
-<h2>3. Attendance Management Module</h2
-
-Mark daily attendance. 
-
-Update or fix attendance entries. 
-
-Generate monthly and weekly attendance reports. 
-
-Track the attendance percentage for each student.
-<br>
-
-----------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 <br>
-<h2>4. Academic Performance / Marks Module</h2>
+<h2>Target Users</h2>
 
-Enter exam marks.  
-
-Update marks when needed.  
-
-Calculate total, percentage, and grade.  
-
-Generate report cards.  
-
-Provide performance comparison by subject
+School administration staff,  
+Teachers,  
+Academic coordinators,  
+Students (for viewing their records, if extended)
 <br>
 
------------------------------------------------------------
+----------------------------------------------------------------------------------------
 
 <br>
-<h2>5. Class & Course Management Module</h2>
+<h2>High-Level Features</h2>
+
+School administration staff,  
+Teachers,  
+Academic coordinators,  
+Students (for viewing their records, if extended)
   
-Manage classes, sections, and subjects. 
-
-Assign teachers to each subject. 
-
-Keep the academic schedule and exam timetable updated
-<br>
-
--------------------------------------------------------------
-
-<br>
-<h2>6. Reports & Dashboard Module</h2>
-
-Generate:
-
-Student list reports.
-
-Attendance reports.
-
-Marksheets and report cards.
-
-Performance analytics.
-<br>
-
----------------------------------------------------------------
-
-<br>
-<h2>Dashboard shows:</h2>
-
-Total students
-
-Attendance overview
-
-Top performers
-
-Alerts (low attendance, missing data)
-
-                                     
-
-
-
+</h2>
