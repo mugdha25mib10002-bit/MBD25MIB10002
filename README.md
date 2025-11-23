@@ -1,103 +1,88 @@
-<h3>High-Level System Architecture</h3>
+<h1>Student Management System (SMS)</h1>
 <br>
-The College Student Management System is designed using a multi-tiered, modular architecture, allowing secure data handling, scalability, and efficient academic administration.
-<br>
-----------------------------------------------------------------
-<br>
-<h2>Architecture Layers</h2>
+<h2>Overview of the Project</h2>
 
-<h2>1. Presentation Layer (User Interface Layer)</h2>
-
-Interfaces for Admin, Faculty, Students, and Department Coordinators.
-
-Includes modules for:
-
-- Admissions and Registration
-- Attendance Entry
-- Internal and External Marks
-- Course Enrollment
-- Timetable View
-- Student Portal
-
-This layer provides easy interaction and safe access.
+The Student Management System is a Python application that stores, manages, and retrieves student information effectively. It includes modules for student registration, managing academic records, tracking attendance, and generating reports. The system handles routine administrative tasks automatically and reduces manual work in schools or colleges.
 <br>
 
--------------------------------------------------------------------
+----------------------------------------------------------------------------------------
 
 <br>
-<h2>2. Application Layer (Business Logic Layer)</h2>
-Handles all college-level academic and administrative rules:
+<h2>Features</h2>
+
+Add, update, and delete student records.  
+
+Maintain student personal details.  
+
+Manage attendance.  
+
+Manage marks and grades.  
+
+Search for students by ID, name, or class.  
+
+Store records in a database.  
+
+Use simple command-line or GUI-based operations, depending on the version.
 <br>
 
-Student enrollment validation
-
-Course registration rules with prerequisites
-
-Calculation of SGPA and CGPA
-
-Attendance percentage computation
-
-Permission checks for faculty and department users
-
-Exam scheduling guidelines
-
-
-
-
-This layer makes sure the data is correct and follows the institutional policies.
-<br>
-
-----------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
 <br>
-<h2>3. Database Layer</h2>
-Stores all persistent data related to students, academics, and college operations.
-Core tables include:
 
-.Students
+<h2>Technologies / Tools Used</h2>
 
-.Courses
+Python 3
 
-.Departments
+SQLite Database
 
-.Faculty
+Modular Programming (5, 6 Modules)
 
-.Attendance
+File Handling
 
-.Internal Assessments
+Tkinter (optional if GUI is added)
 
-.External Marks
-
-.Course Registrations
-
-.Timetable
-
-.Users & Roles
-
-This layer offers secure storage through relational database structures and SQL operations.
+Git for version control
 <br>
-<img width="1915" height="1019" alt="Screenshot 2025-11-23 011811" src="https://github.com/user-attachments/assets/9be56d70-f556-4d0c-ab40-688928754928" />
 
-<img width="1916" height="1018" alt="Screenshot 2025-11-23 011832" src="https://github.com/user-attachments/assets/c4ae45b9-65f7-4de3-945b-7c36d59dd2c8" />
+----------------------------------------------------------------------------------------------
 
-<img width="1919" height="1019" alt="Screenshot 2025-11-23 012005" src="https://github.com/user-attachments/assets/cd662943-408b-4ecf-b9d9-95eb688168d3" />
+<br>
+<h2>Steps to Install & Run the Project</h2>
 
-<img width="1914" height="1015" alt="Screenshot 2025-11-23 012037" src="https://github.com/user-attachments/assets/dfcb5cb4-abfb-4386-ac7f-079fd206b213" />
+Install Python 3.8 or newer.
 
-<img width="1915" height="1009" alt="Screenshot 2025-11-23 012102" src="https://github.com/user-attachments/assets/c11eca6e-ea67-468e-afdc-27408485190e" />
+Clone the GitHub repository:
+
+Navigate to the project folder:
+
+Install the necessary dependencies, if you have any.
+
+Run the main application:
+<br>
+
+------------------------------------------------------------------------------------------------------
+
+<br>
+<h2>Instructions for Testing</h2>
+
+Run unit tests using:
+
+Test student add, delete, and update functions.
+
+Check database entries in the SQLite file.
 
 
+<br>
+-----------------------------------------------------------------------------------------------------------
 
-
-
-
-
-
-
-
-
-
-
+<br>
+<h2>Screenshots</h2>
+<br>
+<img width="1915" height="1019" alt="Screenshot 2025-11-23 011811" src="https://github.com/user-attachments/assets/c87a10cf-8b1d-4d38-82fe-ff9b3e13967b" />
+<img width="1916" height="1018" alt="Screenshot 2025-11-23 011832" src="https://github.com/user-attachments/assets/306f2ada-6d02-4f3f-a51a-ff01cfed0578" />
+<img width="1919" height="1019" alt="Screenshot 2025-11-23 012005" src="https://github.com/user-attachments/assets/48dc97cf-6f8c-43d1-a0ae-a83088bc6256" />
+<img width="1914" height="1015" alt="Screenshot 2025-11-23 012037" src="https://github.com/user-attachments/assets/15e2b4ce-fa5e-43c4-9e27-a751b598adcf" />
+<img width="1915" height="1009" alt="Screenshot 2025-11-23 012102" src="https://github.com/user-attachments/assets/dbe100b7-1e6e-4a98-bbe8-8d43dbf9911f" />
 
 
 
